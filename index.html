@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toyota Corolla Axio X - Nairobi Listing & Finance</title>
+    <style>
+        :root {
+            --primary: #b91c1c;
+            --primary-dark: #991b1b;
+            --text-main: #1f2937;
+            --text-muted: #4b5563;
+            --bg-light: #f3f4f6;
+            --white: #ffffff;
+            --border: #e5e7eb;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: var(--white);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1f2937, #111827);
+            color: var(--white);
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            color: #9ca3af;
+            font-size: 1.1rem;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            padding: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+                padding: 15px;
+            }
+        }
+
+        .card-section h2 {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            color: var(--text-main);
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 8px;
+        }
+
+        .specs-list {
+            list-style: none;
+        }
+
+        .specs-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .specs-list li span:first-child {
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+
+        .specs-list li span:last-child {
+            font-weight: 500;
+            color: var(--text-main);
+        }
+
+        .price-tag {
+            font-size: 1.8rem;
+            color: var(--primary);
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        /* Calculator Styles */
+        .calc-group {
+            margin-bottom: 15px;
+        }
+
+        .calc-group label {
+            display: block;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            color: var(--text-muted);
+        }
+
+        .calc-group input, .calc-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+
+        .calc-results {
+            margin-top: 20px;
+            background: var(--bg-light);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .calc-results h3 {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-bottom: 5px;
+        }
+
+        .monthly-payment {
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .cta-button {
+            display: block;
+            width: 100%;
+            background-color: var(--primary);
+            color: var(--white);
+            text-align: center;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }
+
+        .cta-button:hover {
+            background-color: var(--primary-dark);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: var(--bg-light);
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Toyota Corolla Axio X</h1>
+            <p>Direct Listing in Nairobi, Kenya</p>
+        </header>
+
+        <!-- Main Content Area -->
+        <div class="content-grid">
+            
+            <!-- Left Column: Vehicle Overview -->
+            <div class="card-section">
+                <h2>Vehicle Overview</h2>
+                <div class="price-tag">KES 780,000 <span style="font-size: 1rem; font-weight: normal; color: var(--text-muted);">(Negotiable)</span></div>
+                
+                <ul class="specs-list">
+                    <li><span>Location</span> <span>Nairobi, Kenya</span></li>
+                    <li><span>Mileage</span> <span>98,000 km</span></li>
+                    <li><span>Import Status</span> <span>RHD Japanese Import</span></li>
+                    <li><span>Engine</span> <span>1.5L VVT-i Petrol</span></li>
+                    <li><span>Transmission</span> <span>Automatic</span></li>
+                    <li><span>Exterior Color</span> <span>Silver</span></li>
+                    <li><span>Wheels & Styling</span> <span>Black Alloy Wheels & Red Calipers</span></li>
+                    <li><span>Interior</span> <span>Light Grey Cloth, Center Armrest</span></li>
+                    <li><span>Documentation</span> <span>Logbook in Hand</span></li>
+                </ul>
+            </div>
+
+            <!-- Right Column: Interactive Financing Calculator -->
+            <div class="card-section">
+                <h2>Financing Calculator</h2>
+                <div class="calc-group">
+                    <label for="vehiclePrice">Vehicle Price (KES)</label>
+                    <input type="number" id="vehiclePrice" value="780000" oninput="calculateLoan()">
+                </div>
+
+                <div class="calc-group">
+                    <label for="deposit">Down Payment / Deposit (KES)</label>
+                    <input type="number" id="deposit" value="250000" oninput="calculateLoan()">
+                </div>
+
+                <div class="calc-group">
+                    <label for="months">Loan Duration (Months)</label>
+                    <select id="months" onchange="calculateLoan()">
+                        <option value="12">12 Months (1 Year)</option>
+                        <option value="24" selected>24 Months (2 Years)</option>
+                        <option value="36">36 Months (3 Years)</option>
+                        <option value="48">48 Months (4 Years)</option>
+                    </select>
+                </div>
+
+                <div class="calc-group">
+                    <label for="rate">Estimated Annual Interest Rate (%)</label>
+                    <input type="number" id="rate" value="12" step="0.5" oninput="calculateLoan()">
+                </div>
+
+                <div class="calc-results">
+                    <h3>Estimated Monthly Installment</h3>
+                    <div class="monthly-payment" id="monthlyResult">KES 26,059</div>
+                </div>
+
+                <a href="#contact" class="cta-button" onclick="alert('Redirecting to inquiry form / agent contact details.')">Inquire / Book Inspection</a>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 Nairobi Car Listings. All rights reserved. Calculations are estimates for illustrative purposes.</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript for Live Calculation -->
+    <script>
+        function calculateLoan() {
+            const price = parseFloat(document.getElementById('vehiclePrice').value) || 0;
+            const deposit = parseFloat(document.getElementById('deposit').value) || 0;
+            const months = parseInt(document.getElementById('months').value) || 12;
+            const annualRate = parseFloat(document.getElementById('rate').value) || 0;
+
+            const loanAmount = Math.max(0, price - deposit);
+            
+            // Simple flat/reducing balance estimation approximation
+            const monthlyRate = (annualRate / 100) / 12;
+            let monthlyPayment = 0;
+
+            if (monthlyRate === 0) {
+                monthlyPayment = loanAmount / months;
+            } else {
+                monthlyPayment = (loanAmount * monthlyRate * Math.pow(1 + monthlyRate, months)) / (Math.pow(1 + monthlyRate, months) - 1);
+            }
+
+            document.getElementById('monthlyResult').innerText = "KES " + Math.round(monthlyPayment).toLocaleString();
+        }
+
+        // Run on load
+        calculateLoan();
+    </script>
+</body>
+</html>
